@@ -107,6 +107,7 @@ nav ul li a{
     color: #FFF;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 33px;
+    padding-bottom: 50px;
 }
 #news{
     background-color: #DCB253;
@@ -114,10 +115,44 @@ nav ul li a{
     padding: 20px;
     border-radius: 10px;
     max-width: 29%;
+    position: relative;
 }
 #text5{
     margin-left: 35px;
 }
 #aside1{
     display: flex;
+    background-color: #DCB253;
+    padding-left: 30px;
+    padding-right: 5px;
+    border-radius: 10px;
+    max-width: 200%;
+    position:relative;
+}
+#adresse{
+    margin-right: 70px;
+}
+#aside2{
+    color: #FFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 100px;
+    background-color: #DCB253;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+}
+#icones{
+    font-size: 40px;
+    margin-left: 35px;
+}
+#tout{
+    margin-right: 20px;
 }
