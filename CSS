@@ -4,7 +4,7 @@ body {
 .logo img{
     width: 227px;
     height: 150px;
-    margin-left: 530px;
+    margin-left: 520px;
     margin-top: 10px;
 }
 #nav{
@@ -28,3 +28,19 @@ nav ul li a{
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
+#bienvenue{
+    color: #DCB253;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#section1{
+    display: inline-flex;
+    padding: 12px 22px 31px 5px;
+    align-items: flex-end;
+    gap: 54px;
+}
