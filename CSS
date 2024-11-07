@@ -7,6 +7,9 @@ body {
     height: 150px;
     margin-top: 10px;
 }
+header svg{
+    visibility: hidden;
+}
 #nav{
     font-size: 18px;
     font-style: normal;
@@ -28,6 +31,7 @@ nav ul li a{
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
+
 #bienvenue{
     color: #DCB253;
     text-align: right;
@@ -37,12 +41,25 @@ nav ul li a{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    width: 450px;
+    padding-top: 120px;
 }
 #section1{
-    display: inline-flex;
-    padding: 12px 22px 31px 5px;
-    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 22px 5px 5px;
     gap: 54px;
+    margin-left: 360px;
+}
+#section1 img{
+    width: 661px;
+    height: 397px;
+}
+hr{
+    width: 669.003px;
+    height: 2px;
+    background: #DCB253;
+    border: #DCB253;
 }
 
 #text{
@@ -54,6 +71,30 @@ nav ul li a{
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
+}
+#images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+}
+#images img{
+    margin: 22px;
+}
+#images2 img{
+    margin: 22px;
+}
+#images2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 558px;
+}
+#images3 img{
+    margin: 22px;
+}
+#images3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 558px;
 }
 #section3{
     margin-top: 50px;
@@ -155,4 +196,163 @@ nav ul li a{
 }
 #tout{
     margin-right: 20px;
+}
+
+@media all and (max-width: 320px)
+{
+    header svg{
+        width: 24px;
+        height: 24px;
+        margin-bottom: 120px;
+        visibility: visible;
+    }
+
+    .logo img{
+        width: 201px;
+        height: 125px;
+        padding-left: 40px;
+    }
+
+    nav{
+        display: none;
+    } 
+
+    #bienvenue{
+        width: 181px;
+        height: 128px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    #section1{
+        display: flex;
+        flex-direction: column-reverse;
+        float: right;
+        gap: 15px;
+    }
+    #section1 img{
+        width: 322px;
+        height: 264px;
+        margin-bottom: 20px;
+    }
+    #text{
+        width: 246px;
+        height: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    hr{
+        width: 258.002px;
+        height: 2px;
+    }
+ 
+    #images img{
+        width: 135.881px;
+        height: 124.747px;
+        flex-shrink: 0;
+        margin: 11px;
+    }
+
+    .sectionimage{
+        display: flex;
+        flex-direction: row;
+    }
+    #marie img{
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 200px;
+    }
+    #text2{
+        width: 205px;
+        height: 22px;
+        flex-shrink: 0;
+        font-size: 20px;
+    }
+    #text3{
+        width: 297px;
+        height: 111px;
+        flex-shrink: 0;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    #text4{
+        width: 249px;
+        height: 24px;
+        font-size: 20px;
+    }
+    #images2 img{
+        width: 145px;
+        height: 131px;
+        flex-shrink: 0;
+        margin: 11px;
+    }
+
+    #images3 img{
+        width: 145px;
+        height: 131px;
+        flex-shrink: 0;
+        margin: 11px;
+    }
+    #text5{
+        width: 205px;
+        height: 15px;
+        flex-shrink: 0;
+        font-size: 13px;
+    }
+    #news{
+        width: 341px;
+        height: 125px;
+        flex-shrink: 0;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+  
+    #aside1{
+        width: 191px;
+        height: 126px;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 200px;
+        margin-right: 250px;
+    }
+    #adresse{
+        width: 164px;
+        height: 45px;
+        flex-shrink: 0;
+        font-size: 12px;
+    }
+    #renseignement{
+        width: 150px;
+        height: 48px;
+        flex-shrink: 0;
+        font-size: 12px;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    #aside2{
+        width: 256px;
+        height: 32px;
+        flex-shrink: 0;
+        margin-right: 250px;
+    }
+    #reseaux p{
+        width: 129px;
+        height: 17px;
+        flex-shrink: 0;
+        font-size: 13px;
+    }
+    #icones{
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        flex-shrink: 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
