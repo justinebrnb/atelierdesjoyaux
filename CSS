@@ -49,7 +49,7 @@ nav ul li a{
     flex-direction: row;
     padding: 12px 22px 5px 5px;
     gap: 54px;
-    margin-left: 360px;
+    
 }
 #section1 img{
     width: 661px;
@@ -75,7 +75,7 @@ hr{
 #images{
     display: flex;
     flex-direction: row;
-    margin-left: 450px;
+    margin-left: 200px;
 }
 #images img{
     margin: 22px;
@@ -86,7 +86,7 @@ hr{
 #images2{
     display: flex;
     flex-direction: row;
-    margin-left: 558px;
+    margin-left: 288px;
 }
 #images3 img{
     margin: 22px;
@@ -94,7 +94,7 @@ hr{
 #images3{
     display: flex;
     flex-direction: row;
-    margin-left: 558px;
+    margin-left: 288px;
 }
 #section3{
     margin-top: 50px;
