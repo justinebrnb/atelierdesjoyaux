@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 100vw;
+    max-width: 1920px;
   }
 .logo img{
     width: 227px;
@@ -47,9 +47,9 @@ nav ul li a{
 #section1{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 12px 22px 5px 5px;
     gap: 54px;
-    
 }
 #section1 img{
     width: 661px;
@@ -75,7 +75,7 @@ hr{
 #images{
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
+    justify-content: center;
 }
 #images img{
     margin: 22px;
@@ -86,7 +86,7 @@ hr{
 #images2{
     display: flex;
     flex-direction: row;
-    margin-left: 288px;
+    justify-content: center;
 }
 #images3 img{
     margin: 22px;
@@ -94,7 +94,7 @@ hr{
 #images3{
     display: flex;
     flex-direction: row;
-    margin-left: 288px;
+    justify-content: center;
 }
 #section3{
     margin-top: 50px;
@@ -221,7 +221,7 @@ hr{
         width: 181px;
         height: 128px;
         font-size: 20px;
-        margin-top: 30px;
+        margin-left: 90px;
     }
 
     #section1{
@@ -231,8 +231,8 @@ hr{
         gap: 15px;
     }
     #section1 img{
-        width: 322px;
-        height: 264px;
+        width: 272px;
+        height: 214px;
         margin-bottom: 20px;
     }
     #text{
@@ -257,6 +257,7 @@ hr{
         display: flex;
         flex-direction: row;
     }
+
     #marie img{
         width: 200px;
         height: 200px;
@@ -268,19 +269,22 @@ hr{
         height: 22px;
         flex-shrink: 0;
         font-size: 20px;
+        margin: auto;
+        margin-bottom: 20px;
     }
     #text3{
-        width: 297px;
-        height: 111px;
+        width: 267px;
+        height: 121px;
         flex-shrink: 0;
-        font-size: 13px;
-        margin-top: 30px;
+        font-size: 12px;
+        margin: auto;
     }
 
     #text4{
         width: 249px;
         height: 24px;
         font-size: 20px;
+        margin: auto;
     }
     #images2 img{
         width: 145px;
@@ -295,20 +299,29 @@ hr{
         flex-shrink: 0;
         margin: 11px;
     }
+
+    
+
     #text5{
         width: 205px;
         height: 15px;
         flex-shrink: 0;
         font-size: 13px;
+        margin: auto;
     }
     #news{
         width: 341px;
-        height: 125px;
+        height: 175px;
         flex-shrink: 0;
         font-size: 13px;
         margin-top: 20px;
     }
-  
+
+    form{
+        width: 341px;
+        height: 175px;
+    }
+    
     #aside1{
         width: 191px;
         height: 126px;
@@ -316,8 +329,12 @@ hr{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 200px;
-        margin-right: 250px;
+    }
+    #tout{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 280px;
     }
     #adresse{
         width: 164px;
@@ -338,6 +355,8 @@ hr{
         height: 32px;
         flex-shrink: 0;
         margin-right: 250px;
+        display: flex;
+        flex-direction: row;
     }
     #reseaux p{
         width: 129px;
@@ -354,5 +373,6 @@ hr{
     footer{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 }
