@@ -168,7 +168,7 @@ hr{
     padding-right: 5px;
     border-radius: 10px;
     max-width: 200%;
-    position:relative;
+    
 }
 #adresse{
     margin-right: 70px;
@@ -188,7 +188,6 @@ hr{
     padding-bottom: 15px;
     border-radius: 10px;
     display: flex;
-    position: relative;
 }
 #icones{
     font-size: 40px;
@@ -291,6 +290,8 @@ hr{
         height: 131px;
         flex-shrink: 0;
         margin: 11px;
+        display: flex;
+        flex-direction: row;
     }
 
     #images3 img{
@@ -298,6 +299,8 @@ hr{
         height: 131px;
         flex-shrink: 0;
         margin: 11px;
+        display: flex;
+        flex-direction: row;
     }
 
     
@@ -321,7 +324,7 @@ hr{
         width: 341px;
         height: 175px;
     }
-    
+ 
     #aside1{
         width: 191px;
         height: 126px;
@@ -334,7 +337,7 @@ hr{
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 280px;
+        margin-top: 20px;
     }
     #adresse{
         width: 164px;
